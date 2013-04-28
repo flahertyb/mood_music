@@ -1,0 +1,9 @@
+%h1.text-center
+  How are you feeling?
+.container
+  .row-fluid
+    .span8.offset2.text-center
+      = form_tag '/moods', :method => 'get', :class =>'form-search' do
+        .mood-search
+          = select_tag :moods, options_from_collection_for_select(@moods, :id, :name), :multiple => true, :id => 'mood-search-box', :class =>'search-query', :placeholder => 'ex. Happy, Energetic, Relaxed'
+          = submit_tag "Generate Playlist", :class => 'btn-large btn-primary'
