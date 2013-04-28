@@ -14,6 +14,7 @@ gem 'debugger'
 gem 'timecop', '0.6.1'
 
 
+
 group :test do
   gem 'rspec-rails', '~> 2.12.0'
   gem 'vcr', '2.4.0'
@@ -25,6 +26,10 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'haml', '~> 4.0.2'
+  gem 'haml-rails', '~> 0.4'
+  gem 'bootstrap-sass', '~> 2.3.1.1'
+  gem 'select2-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
