@@ -8,6 +8,17 @@ gem 'rails', '3.2.8'
 gem 'sqlite3'
 
 gem 'json'
+gem 'activesupport', '~> 3.2.8'
+gem 'httparty', '~> 0.11.0'
+gem 'debugger'
+gem 'timecop', '0.6.1'
+
+
+group :test do
+  gem 'rspec-rails', '~> 2.12.0'
+  gem 'vcr', '2.4.0'
+  gem 'webmock'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

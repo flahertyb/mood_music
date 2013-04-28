@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.rovicorp.com/search/v2.1/music/search?apikey=7j8hp9hqactzkhe7tkqyr3n9&entitytype=album&include=moods&query=lonesome+crowded+west&sig=<%= sig %>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Sun, 28 Apr 2013 21:05:34 GMT
+      Requestid:
+      - tul1cpgpsrapp30:gwy:1ouhbo
+      Server:
+      - Rovi-HTTP/1.1
+      Vary:
+      - Accept-Encoding
+      X-Mashery-Responder:
+      - prod-p-worker-us-east-1d-45.mashery.com
+      Content-Length:
+      - '8597'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"searchResponse":{"meta:id":"tul1cpgpsrapp30:gwy:1ouhbo","controlSet":{"status":"ok","code":200,"messages":null},"results":[{"type":"album","relevance":[{"code":"Score","value":2.3742902}],"id":"MW0000596977","messages":null,"album":{"ids":{"albumId":"MW0000596977","amgClassicalId":null,"amgPopId":"R   316350"},"title":"The
+        Lonesome Crowded West","primaryArtists":[{"id":"MN0000480086","name":"Modest
+        Mouse"}],"guestArtists":null,"flags":["Offensive image,title,lyrics"],"duration":4430,"originalReleaseDate":"1997-10-07","rating":8,"isPick":false,"genres":[{"id":"MA0000002613","name":"Pop\/Rock","weight":10}],"headlineReview":null,"classicalReview":null,"classicalReviewUri":null,"credits":null,"creditsUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/credits?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000596977","moods":[{"id":"XA0000000946","name":"Bittersweet","weight":7},{"id":"XA0000000734","name":"Melancholy","weight":7},{"id":"XA0000000697","name":"Tense\/Anxious","weight":7},{"id":"XA0000000935","name":"Angst-Ridden","weight":5},{"id":"XA0000000949","name":"Brash","weight":5},{"id":"XA0000000954","name":"Brooding","weight":5},{"id":"XA0000000958","name":"Cathartic","weight":5},{"id":"XA0000000966","name":"Confrontational","weight":5},{"id":"XA0000000980","name":"Earnest","weight":5},{"id":"XA0000000990","name":"Energetic","weight":5},{"id":"XA0000000997","name":"Exuberant","weight":5},{"id":"XA0000001002","name":"Fiery","weight":5},{"id":"XA0000001062","name":"Passionate","weight":5},{"id":"XA0000000753","name":"Reflective","weight":5},{"id":"XA0000000759","name":"Rousing","weight":5},{"id":"XA0000001088","name":"Searching","weight":5},{"id":"XA0000001089","name":"Self-Conscious","weight":5},{"id":"XA0000001133","name":"Urgent","weight":5},{"id":"XA0000001136","name":"Volatile","weight":5},{"id":"XA0000000743","name":"Quirky","weight":4}],"moodsUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/moods?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000596977","primaryReview":null,"primaryReviewUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/primaryReview?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000596977","releases":null,"releasesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/releases?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000596977","similar":null,"similarUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/similar?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000596977","styles":null,"stylesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/styles?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000596977","themes":null,"themesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/themes?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000596977","tracks":null,"tracksUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/tracks?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000596977"}},{"type":"album","relevance":[{"code":"Score","value":0.021286512}],"id":"MW0000077216","messages":null,"album":{"ids":{"albumId":"MW0000077216","amgClassicalId":null,"amgPopId":"R    97098"},"title":"Lonesome
+        Roving Wolves (Songs & Ballads of the West)","primaryArtists":[{"id":"MN0000339254","name":"Rosalie
+        Sorrels"}],"guestArtists":null,"flags":null,"duration":1928,"originalReleaseDate":"1980-??-??","rating":0,"isPick":false,"genres":[{"id":"MA0000002592","name":"Folk","weight":10}],"headlineReview":null,"classicalReview":null,"classicalReviewUri":null,"credits":null,"creditsUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/credits?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000077216","moods":null,"moodsUri":null,"primaryReview":null,"primaryReviewUri":null,"releases":null,"releasesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/releases?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000077216","similar":null,"similarUri":null,"styles":null,"stylesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/styles?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000077216","themes":null,"themesUri":null,"tracks":null,"tracksUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/tracks?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000077216"}},{"type":"album","relevance":[{"code":"Score","value":0.020534854}],"id":"MW0000548052","messages":null,"album":{"ids":{"albumId":"MW0000548052","amgClassicalId":null,"amgPopId":"R   900409"},"title":"Lonesome
+        and Blue: Blue Note Heads Way out West","primaryArtists":[{"id":"","name":"Various
+        Artists"}],"guestArtists":null,"flags":null,"duration":3731,"originalReleaseDate":"2002-07-22","rating":0,"isPick":false,"genres":[{"id":"MA0000002674","name":"Jazz","weight":10}],"headlineReview":null,"classicalReview":null,"classicalReviewUri":null,"credits":null,"creditsUri":null,"moods":null,"moodsUri":null,"primaryReview":null,"primaryReviewUri":null,"releases":null,"releasesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/releases?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000548052","similar":null,"similarUri":null,"styles":null,"stylesUri":null,"themes":null,"themesUri":null,"tracks":null,"tracksUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/tracks?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0000548052"}},{"type":"album","relevance":[{"code":"Score","value":0.02049385}],"id":"MW0001559958","messages":null,"album":{"ids":{"albumId":"MW0001559958","amgClassicalId":null,"amgPopId":"R  1157178"},"title":"Somewhere
+        out West, Lonesome for You","primaryArtists":[{"id":"MN0001959207","name":"Sleepy
+        Horses"}],"guestArtists":null,"flags":null,"duration":0,"originalReleaseDate":"2006-11-22","rating":0,"isPick":false,"genres":[{"id":"MA0000002613","name":"Pop\/Rock","weight":10}],"headlineReview":null,"classicalReview":null,"classicalReviewUri":null,"credits":null,"creditsUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/credits?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0001559958","moods":null,"moodsUri":null,"primaryReview":null,"primaryReviewUri":null,"releases":null,"releasesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/releases?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0001559958","similar":null,"similarUri":null,"styles":null,"stylesUri":null,"themes":null,"themesUri":null,"tracks":null,"tracksUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/tracks?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0001559958"}},{"type":"album","relevance":[{"code":"Score","value":0.014538361}],"id":"MW0001119678","messages":null,"album":{"ids":{"albumId":"MW0001119678","amgClassicalId":null,"amgPopId":"R  1084071"},"title":"Live
+        & The Crowd Went Wild","primaryArtists":[{"id":"MN0000024152","name":"Sherbet"}],"guestArtists":null,"flags":null,"duration":4074,"originalReleaseDate":"2007-06-25","rating":0,"isPick":false,"genres":[{"id":"MA0000002613","name":"Pop\/Rock","weight":10}],"headlineReview":null,"classicalReview":null,"classicalReviewUri":null,"credits":null,"creditsUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/credits?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0001119678","moods":null,"moodsUri":null,"primaryReview":null,"primaryReviewUri":null,"releases":null,"releasesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/releases?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0001119678","similar":null,"similarUri":null,"styles":null,"stylesUri":null,"themes":null,"themesUri":null,"tracks":null,"tracksUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/tracks?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0001119678"}},{"type":"album","relevance":[{"code":"Score","value":0.014373661}],"id":"MW0001595996","messages":null,"album":{"ids":{"albumId":"MW0001595996","amgClassicalId":null,"amgPopId":"R  1215141"},"title":"Live
+        & the Crowd Went Wild [DVD]","primaryArtists":[{"id":"MN0000024152","name":"Sherbet"}],"guestArtists":null,"flags":["Video"],"duration":0,"originalReleaseDate":"2007-06-25","rating":0,"isPick":false,"genres":[{"id":"MA0000002613","name":"Pop\/Rock","weight":10}],"headlineReview":null,"classicalReview":null,"classicalReviewUri":null,"credits":null,"creditsUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/credits?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0001595996","moods":null,"moodsUri":null,"primaryReview":null,"primaryReviewUri":null,"releases":null,"releasesUri":"http:\/\/api.rovicorp.com\/data\/v1\/album\/releases?format=json&apikey=7j8hp9hqactzkhe7tkqyr3n9&albumid=MW0001595996","similar":null,"similarUri":null,"styles":null,"stylesUri":null,"themes":null,"themesUri":null,"tracks":null,"tracksUri":null}}],"totalResultCounts":6}}'
+    http_version:
+  recorded_at: Sun, 28 Apr 2013 21:05:32 GMT
+recorded_with: VCR 2.4.0
