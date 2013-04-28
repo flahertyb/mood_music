@@ -21,10 +21,6 @@ class AllMusicService
 
   def moods_from_first_result(results)
     moods = results.first['album']['moods']
-
-    moods.map! do |mood|
-      mood.reject!{ |key| key == 'id' }
-    end
   end
 
   def default_query_params
